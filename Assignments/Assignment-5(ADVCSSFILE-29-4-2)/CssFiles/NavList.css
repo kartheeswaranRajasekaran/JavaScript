@@ -1,0 +1,19 @@
+.leftNav{
+    color: black;
+    background-color: #808080;
+    margin-inline-end: 1127px;
+    margin-block-end: -252px;
+    margin-inline-end: 578px;
+    margin-left: 11px;
+}
+.image{
+    float: left;
+    margin-inline: 338px;
+    width: 612px;
+    height: 298px;
+    margin-top: -28px;
+   
+}
+*{
+    background-color:  #c3c3c3;;
+}

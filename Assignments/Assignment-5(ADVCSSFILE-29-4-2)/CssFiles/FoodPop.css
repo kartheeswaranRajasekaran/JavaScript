@@ -1,0 +1,79 @@
+.container{
+    border: 3px solid rgb(249, 247, 247);
+    background-color: white;
+    padding: 145px;
+    border-radius: 8px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+body{
+    background-color: #3D3D3D;
+}
+.GridDisplay1{
+    text-align: left;
+    margin-left: -114px;
+    margin-top: -114px;
+    margin-bottom: -114px;
+}
+.GridInput1{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: -119px;
+}
+
+.GridDisplay2{
+    text-align: left;
+    margin-left: -114px;
+    margin-top: -6px;
+    margin-bottom: -7px;
+}
+.GridInput2{
+    text-align: right;
+    margin-bottom: -12px;
+    margin-top: -108px;
+    margin-right: -120px;
+}
+.GridDisplay3{
+    text-align: left;
+    margin-left: -114px;
+    margin-top: -14px;
+    margin-bottom: -94px;
+}
+.GridInput3{
+    text-align: right;
+    margin-bottom: 22px;
+    margin-right: -119px;
+    margin-top: -122px;
+}
+.GridDisplay4{
+    text-align: left;
+    margin-left: -114px;
+    margin-top: 47px;
+    margin-bottom: -114px;
+}
+.GridInput4{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: -119px;
+    margin-top: -122px;
+}
+#number{
+        width: 20px;
+        margin-bottom: -18px;
+}
+hr{
+    width: 599px;
+    margin-left: -145px;
+   
+}
+#price{
+    color: #8A2B06;
+}
+#submit{
+    color:white;
+    background-color: #8A2B06;
+    border: 2px solid #8A2B06;
+    border-radius: 13px;
+    width: 80px;
+    height: 33px;
+}

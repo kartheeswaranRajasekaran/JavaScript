@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.toptext1{
+    position: absolute;
+    top: 59px;
+    left: 16px;
+    
+}
+.toptext2{
+    position: absolute;
+    top: 59px;
+    left: 372px;
+}
+.toptext3{
+    position: absolute;
+    top: 59px;
+    left: 751px;
+}
+.toptext4{
+    position: absolute;
+    top: 59px;
+    left:1112px;
+}
+.toptext5{
+    position: absolute;
+    top: 324px;
+    left: 11px;
+}
+.toptext6{
+    position: absolute;
+    top: 329px;
+    left: 374px;
+}
+.toptext7{
+    position: absolute;
+    top: 332px;
+    left: 748px;
+}
+.toptext8{
+    position: absolute;
+    top: 335px;
+    left: 1111px;
+}
