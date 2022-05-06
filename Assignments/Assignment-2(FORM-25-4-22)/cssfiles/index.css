@@ -1,0 +1,20 @@
+*{
+  background-color: wheat;
+  orientation: 26grad;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+table{
+    border: 20;
+    text-align: center;
+    border-color:red;
+    visibility: visible;
+
+}
+image{
+    image-resolution: 200;
+    image-orientation: 56grad;
+}
