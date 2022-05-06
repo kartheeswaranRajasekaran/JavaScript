@@ -1,0 +1,22 @@
+body{
+    background-color:#BA55D3;
+    align-content: center;
+    text-align: center;
+}
+form{
+    justify-content: center;
+    background-color:#1E90FF;
+    text-align: left;
+    width: fit-content;
+    padding: 5;
+    margin-left: 500;
+    margin-bottom: 10;
+} 
+hr{
+    color: grey;
+    line-height: 2;
+    margin-top:115;
+    margin-left:300;
+    margin-right:595;
+    border-width: 3;
+}

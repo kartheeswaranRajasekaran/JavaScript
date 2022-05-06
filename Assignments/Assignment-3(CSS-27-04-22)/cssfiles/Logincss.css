@@ -1,0 +1,19 @@
+body{
+    background-color:#20B2AA;
+    align-content: center;
+    text-align: center;
+}
+form{
+    background-color:#FF6347;
+    text-align: center;
+    width: fit-content;
+   
+} 
+.reset {
+    color: white;
+    background-color:#00A3E0;
+}
+.submit{
+    color: white;
+    background-color: #00A3E0;
+}
