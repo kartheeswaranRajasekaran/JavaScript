@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Ascending order without using built-in function</title>
+</head>
+<body>
+</body>
+<script>
+    var Arr = [33, 44, 11, 33, 44, 555, 11, 11, 45];
+    for (var i = 1; i < Arr.length; i++)
+        for (var j = 0; j < i; j++)
+            if (Arr[i] < Arr[j]) {
+                var x = Arr[i];
+                Arr[i] = Arr[j];
+                Arr[j] = x;
+            }
+    console.log(Arr);
+</script>
+
+</html>
