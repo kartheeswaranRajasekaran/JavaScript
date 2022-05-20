@@ -1,0 +1,35 @@
+<html>
+	<head>
+        <body>
+            <br>
+            <h1>Check the Prime or not</h1>
+            Enter Number<input type="text"  id = "no"/>
+       <button onClick="Prime()">submit</button>
+        </body>
+    </html>
+		<script>
+			function Prime()
+			{
+				var i,flag=0,number;
+				number = Number(document.getElementById("no").value);
+
+				for(i=2; i <= number/2; i++)
+				{
+					if(number%i == 0)
+					{
+						flag = 1;
+						break;
+					}
+				}
+				if(flag == 0)
+				{
+					document.write(" The given number is a prime number");
+				}
+				else
+				{
+					document.write(" The given number is not  a prime number");
+				}
+			}
+	</script>
+	</head>
+	

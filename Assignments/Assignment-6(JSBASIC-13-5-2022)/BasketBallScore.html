@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <body>
+         Salman's Average:<div id="salman"></div><br>
+           Mike's Average:<div id="mike"></div><br>
+<button onclick="Winner()">Winner of two teams</button>
+Result :<span id="result"></span><br><br>
+
+Mary's Average:<div id="mary"></div>
+
+<button onclick="Winner1()">Winner of three teams</button>
+<span id="result1"></span>
+        </body>
+    </head>
+</html>
+<script>
+var a= 89;
+var b=120 ;
+var c= 103 ;
+salmanAverage=a+b+c/3;
+document.getElementById("salman").innerHTML=salmanAverage;
+var a= 116;
+var b= 94;
+var c= 123;
+mikeAverage=a+b+c/3;
+document.getElementById("mike").innerHTML=mikeAverage;
+
+
+function Winner(){
+
+
+    if(salmanAverage>mikeAverage)   {
+            document.getElementById("result").innerHTML="Winner is Salman";
+    }
+        else if(mikeAverage>salmanAverage){
+            document.getElementById("result").innerHTML="Winner is Mike";
+        }
+        else{
+            document.getElementById("result").innerHTML="Tie between Salman and Mike!!";
+
+}}
+
+var a= 97;
+var b=134 ;
+var c= 105 ;
+maryAverage=a+b+c/3;
+document.getElementById("mary").innerHTML=maryAverage;
+
+function Winner1(){
+
+    if(salmanAverage>mikeAverage && salmanAverage>maryAverage)
+            document.getElementById("result1").innerHTML="Winner is Salman";
+        if(maryAverage>mikeAverage&&maryAverage>salmanAverage)
+            document.getElementById("result1").innerHTML="Winner is Mary";
+        if(mikeAverage>maryAverage&&mikeAverage>salmanAverage)
+            document.getElementById("result1").innerHTML="Winner is Mike";
+
+
+}
+
+
+</script>

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Find-largest-number</title>
+    </head>
+<body>
+Enter the first number<input type="text" id="one"><br><br>
+Enter the second number<input type="text" id="two"><br><br>
+Enter the third number<input type="text" id="three"><br>
+<button onClick="large()">LagestNumber</button><br><br><br>
+Result:<span id="find"></span>
+    </body>
+    <script>
+        function large(){
+        var a = document.getElementById("one").value;
+        var b = document.getElementById("two").value;
+      var c = document.getElementById("three").value;
+  var result = Math.max(a, b, c);
+document.getElementById("find").innerHTML= result ;
+        }
+    </script>
+</html>

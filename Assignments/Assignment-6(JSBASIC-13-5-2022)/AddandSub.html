@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title> Add two numbers</title>
+</head>
+<body>
+    Enter the first Number<input type="text" id="one"><br>
+    Enter the Second Number<input type="text" id="two"><br>
+    <button onClick="addition()">Add</button><br>
+    Result <span id="add"></span><br>
+    <script>
+        function addition() {
+            var a = document.getElementById("one").value;
+            var b = document.getElementById("two").value;
+            var result = Number(a) + Number(b);
+            document.getElementById("add").innerHTML = result;
+        }
+    </script>
+</body>
+</html>

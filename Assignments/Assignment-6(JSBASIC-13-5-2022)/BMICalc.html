@@ -1,0 +1,32 @@
+
+<html>
+    <head></head>
+    <body>
+        HarryMass<input type="text" id="harrymass"><br><br>
+        Harryheight<input type="text" id="harryheight"><br><br>
+        HarryBMI:<span id="demo"></span><br><br><br>
+      SalmanMass<input type="text" id="salmanmass"><br><br>
+       Salmanheight<input type="text" id="salmanheight"><br><br>
+       SalmanBMI:<span id="sub"></span><br>
+<br><br>
+        <button onClick="compare()">Compare BMI</button><br><br>
+         Result<span id="result"></span>
+      </body>   
+</html>
+<script>
+    function compare(){
+    var Harryweight=document.getElementById("harrymass").value;
+    var HarryHeight=document.getElementById("harryheight").value;
+    HarryBMI =  Harryweight/ (HarryHeight * HarryHeight);
+    document.getElementById("demo").innerHTML=HarryBMI;
+    console.log(HarryBMI);
+   var SalmanMass=document.getElementById("salmanmass").value;
+   var SalmanHeight=document.getElementById("salmanheight").value;
+  SalmanBMI =  SalmanMass/ (SalmanHeight*SalmanHeight);
+    document.getElementById("sub").innerHTML=SalmanBMI;
+  console.log(SalmanBMI);
+  var x = Boolean(HarryBMI>SalmanBMI);
+console.log("Is Harry's BMI higher than Salman's BMI? "+x);
+document.getElementById("result").innerHTML="Is Harry's BMI higher than Salman's BMI? "+x;
+    }
+</script>

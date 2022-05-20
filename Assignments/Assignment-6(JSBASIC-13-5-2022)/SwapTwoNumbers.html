@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Swap-two-Variables</title>
+    </head>
+    <body>
+        Enter the first Number<input type="text" id="one"><br>
+ Enter the Second Number<input type="text" id="two"><br>
+<button onClick="swap()">Swap the numbers</button><br>
+        <script>
+            function swap(a,b){
+var a =document.getElementById("one").value;
+var b=document.getElementById("two").value;
+[a ,b]=[b,a];
+console.log(a,b);
+document.write(a,b);
+            }
+        </script>
+ </body>
+</html>
