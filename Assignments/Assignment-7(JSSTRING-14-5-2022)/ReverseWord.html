@@ -1,0 +1,15 @@
+<html>
+    <head>
+</head> Enter the string<input type="text" id="text1"><br><br><br>
+<button onClick="Reversetheword()">Reverse the Word</button>
+<span id="demo"></span>
+</body>
+</html>
+<script>
+function Reversetheword(){
+var result=document.getElementById("text1").value;
+output=result.split("").reverse().join("");
+document.getElementById("demo").innerHTML=output;
+console.log(output);
+}
+</script>

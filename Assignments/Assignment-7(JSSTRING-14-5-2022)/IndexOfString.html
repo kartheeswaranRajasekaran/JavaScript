@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Index of String</title>
+    </head>
+    <body>
+        <body>
+            Enter the string :<input type="text" id="text1"><br><br><br>
+            <button onClick="Index()">Find the Index</button>
+            <span id="demo"></span>
+    </body>
+</html>
+<script>
+function Index(){
+ var input=document.getElementById("text1").value;
+ result=input.charAt(2);
+ document.getElementById("demo").innerHTML=result;
+
+}
+</script>

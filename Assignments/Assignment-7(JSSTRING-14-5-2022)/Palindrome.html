@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <body>
+        Enter the string<input type="text" id="text1"><br><br><br>
+        <button onClick="Palindrome()">Palindrome </button>
+        <span id="demo"></span>
+        </body>
+        </html>
+    <script>
+    function Palindrome()  
+{  
+ var result=document.getElementById("text1").value;
+output = result.split ('').reverse().join('') ? true :false;
+document.getElementById("demo").innerHTML=output;
+console.log(output);
+}
+</script>  
+    

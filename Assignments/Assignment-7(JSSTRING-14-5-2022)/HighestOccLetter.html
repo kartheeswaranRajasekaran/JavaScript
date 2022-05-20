@@ -1,0 +1,33 @@
+<html>
+    <head>
+    </head>
+    <body>
+ <input type="text" id="text1">
+ <button onclick="highestcharacter()">Find-Highest-character</button>              
+            <span id="result"></span>
+    </body>
+</html>
+<script>
+    function highestcharacter() 
+    {    
+    var str = document.getElementById("text1").value;
+    var count={};
+    var highestcount='';
+   console.log(str);
+    for(var i=0;i<str.length;i++)
+    {
+        var result=str[i];
+        if(!count[result])
+        {
+            count[result]=0;
+        }
+        count[result]++;
+        if(highestcount=='' || count[result] > count[highestcount])
+        {
+            highestcount=result;
+        }
+    }
+    document.getElementById("result").innerHTML=highestcount;
+    console.log(count[highestcount]);    
+    } 
+</script>

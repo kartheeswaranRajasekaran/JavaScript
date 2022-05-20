@@ -1,0 +1,32 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    Enter the string1<input type="text" id="text1"><br><br><br>
+    Enter the string2<input type="text" id="text2"><br><br><br>
+
+    <button onClick="Anagrams()">Find Anagrams </button>
+    Result: <span id="demo"></span>
+</body>
+
+</html>
+<script>
+
+    function Anagrams() {
+        var string1 = document.getElementById("text1").value;
+        var string2 = document.getElementById("text2").value;
+
+        var result1 = string1.split('').sort().join('');
+        var result2 = string2.split('').sort().join('');
+        if (result1 === result2) {
+            var result = "True";
+        }
+        else {
+            var result = "False";
+        }
+
+        document.getElementById("demo").innerHTML = result;
+    }
+</script>

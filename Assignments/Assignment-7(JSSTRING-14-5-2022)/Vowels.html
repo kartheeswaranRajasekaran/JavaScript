@@ -1,0 +1,23 @@
+<html>
+    <head>
+    </head>
+    <body>
+       Enter the string<input type="text" id="text1">
+        <br>
+        <button onClick="Vowels()">Find the vowels</button><br><br>
+        Result: <span id="demo"></span>
+    </body>
+</html>
+<script>
+function Vowels(){
+
+    var str=document.getElementById("text1").value;
+    output = str.split('');
+    for(i=0 ; i<str.length;i++)
+    {
+        if(str.charAt(i) == 'a'||str.charAt(i) == 'e'||str.charAt(i) == 'i'||str.charAt(i) == 'o'||str.charAt(i) == 'u'){
+
+            document.write(output[i]);
+            console.log(output[i]);
+        }}}
+</script>

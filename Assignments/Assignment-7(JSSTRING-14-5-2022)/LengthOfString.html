@@ -1,0 +1,17 @@
+<html>
+    <head>
+<title>Length of given String</title>
+    </head>
+    <body>
+    Enter the string<input type="text" id="text1"><br><br>
+    <button onClick="length()">Find the length</button>
+    <span id="demo"></span>
+</body>
+</html>
+<script>
+    function length(){
+ var result=document.getElementById("text1").value;
+ output=result.length;
+ document.getElementById("demo").innerHTML=output;
+    }
+</script>

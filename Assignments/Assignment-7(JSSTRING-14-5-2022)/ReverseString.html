@@ -1,0 +1,17 @@
+<htm>
+    <head>
+</head>
+<body>
+   Enter the string<input type="text" id="text1"><br><br>
+        <button onClick="Reverse()">Reverse the String </button>
+        <span id="demo"></span>
+</body>
+</html>
+<script>
+ function Reverse(){
+var result=document.getElementById("text1").value;
+output=result.split("").reverse().join("");
+document.getElementById("demo").innerHTML=output;
+console.log(output);
+ }
+</script>
